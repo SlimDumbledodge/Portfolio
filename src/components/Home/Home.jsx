@@ -12,9 +12,10 @@ const Home = () => {
               Développeur Fullstack React/Laravel
               <span>
                 <img
-                  src="hello-img.png"
+                  src="https://i.ibb.co/DKVdrf2/hello-img.png"
                   className="hello-img"
-                  alt="hello emoji"
+                  alt="hello-img"
+                  border="0"
                 />
               </span>
             </h1>
@@ -41,7 +42,11 @@ const Home = () => {
             </span>
           </div>
           <div className="hero-img">
-            <img src="hero.jpg" className="hero-img" alt="hero" />
+            <img
+              src="https://i.ibb.co/SP3sQsK/hero.jpg"
+              className="hero-img"
+              alt="hero"
+            />
           </div>
         </div>
       </div>

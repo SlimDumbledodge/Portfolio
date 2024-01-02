@@ -30,7 +30,12 @@ const Contact = () => {
                 <p>amael.rosales@gmail.com</p>
               </div>
             </div>
-            <a href="/src/CV.pdf" target="_blank" className="download-cv">
+            <a
+              href="https://www.dropbox.com/scl/fi/4voysqkgyte79qnw0as1s/CV.pdf?rlkey=w7wri6iywpcynf6yf687fn9uh&dl=0"
+              target="_blank"
+              rel="noreferrer"
+              className="download-cv"
+            >
               <i className="fa-solid fa-download download" />
               CV
             </a>
