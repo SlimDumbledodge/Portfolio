@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Header.scss';
 
 function Header() {
-  const [isNavbarOpen, setNavbarOpen] = useState(true);
+  const [isNavbarOpen, setNavbarOpen] = useState(false);
   const handleClick = () => {
     setNavbarOpen((current) => !current);
   };
