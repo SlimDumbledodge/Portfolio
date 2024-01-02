@@ -12,7 +12,7 @@ const Home = () => {
               Développeur Fullstack React/Laravel
               <span>
                 <img
-                  src="./src/hello-img.png"
+                  src="hello-img.png"
                   className="hello-img"
                   alt="hello emoji"
                 />
@@ -41,7 +41,7 @@ const Home = () => {
             </span>
           </div>
           <div className="hero-img">
-            <img src="./src/hero.jpg" className="hero-img" alt="hero" />
+            <img src="hero.jpg" className="hero-img" alt="hero" />
           </div>
         </div>
       </div>

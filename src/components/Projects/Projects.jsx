@@ -15,11 +15,7 @@ const Projects = () => {
           <div className="project-wrapper">
             <div className="project-card first-project">
               <div>
-                <img
-                  src="/src/pokedex.png"
-                  className="project-img"
-                  alt="pokédex"
-                />
+                <img src="pokedex.png" className="project-img" alt="pokédex" />
               </div>
               <div className="project-text">
                 <h2>
