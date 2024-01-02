@@ -1,4 +1,14 @@
 /*
 Définition de variables Sass, par exemple :
    $color: #282c34;
-*/
+*/ // Main colors
+
+$mainColor: #fff;
+$secondColor: #f9f9f9;
+$thirdColor: #147efb;
+$textColor: #767676;
+
+// Hover color on links full screen
+$hoverColorLinksFullScreen: #f0efef;
+// Hover color on links mobile screen
+$hoverColorLinksMobileScreen: #ebebeb;

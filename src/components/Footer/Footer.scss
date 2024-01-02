@@ -1,0 +1,26 @@
+@use '../../styles/variables' as var;
+
+.footer {
+  display: flex;
+  background-color: #2d2e32;
+  color: var.$mainColor;
+  padding: 50px 0;
+  align-items: center;
+  flex-direction: column;
+
+  p {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .socials {
+    i {
+      font-size: 1.8rem;
+      margin-right: 15px;
+      transition: all 0.2s;
+    }
+    i:hover {
+      color: var.$thirdColor;
+    }
+  }
+}

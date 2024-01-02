@@ -1,0 +1,111 @@
+@use '../../styles/variables' as var;
+
+.home {
+  background-color: var.$secondColor;
+  padding-bottom: 100px;
+  padding-top: 200px;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+  // border: 1px solid black;
+  padding: 0 4rem;
+
+  .content {
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    // border: 1px solid red;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+  .hero-text p {
+    line-height: 1.6;
+    margin-right: 25px;
+    color: var.$textColor;
+  }
+
+  .location-icon {
+    font-size: 1.2rem;
+    color: #f70a8d;
+  }
+
+  .hero-text span {
+    margin-top: 25px;
+  }
+
+  .hero-text span i {
+    font-size: 2rem;
+    margin-right: 15px;
+    transition: all 0.2s;
+  }
+
+  .hero-text span i:hover {
+    color: var.$thirdColor;
+  }
+
+  .hello-img {
+    width: 50px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .hero-img {
+    border-radius: 50%;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 1368px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    height: auto;
+    text-align: center;
+  }
+  .container .hero-text p {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 1.2rem;
+  }
+  .home {
+    padding-top: 100px;
+  }
+  .container .hero-text h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container .hero-img {
+    width: 17rem;
+    height: 17rem;
+  }
+}

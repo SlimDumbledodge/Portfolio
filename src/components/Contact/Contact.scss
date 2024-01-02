@@ -1,0 +1,62 @@
+@use '../../styles/variables' as var;
+
+.contact {
+  background-color: var.$secondColor;
+  padding: 100px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-content {
+  #contact-title {
+    color: var.$thirdColor;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #contact-hook-sentence {
+    color: #2d2e32;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 1.5rem 0 2rem;
+
+    i {
+      color: var.$thirdColor;
+    }
+  }
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+      padding: 1rem;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+      i {
+        color: var.$thirdColor;
+        font-size: 1.5rem;
+      }
+    }
+
+    .contact-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      h3 {
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+      p {
+        color: var.$textColor;
+      }
+    }
+  }
+}
