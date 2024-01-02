@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="project-card first-project">
               <div>
                 <img
-                  src="./src/pokedex.png"
+                  src="/src/pokedex.png"
                   className="project-img"
                   alt="pokédex"
                 />
