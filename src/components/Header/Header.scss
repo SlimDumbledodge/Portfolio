@@ -75,9 +75,7 @@
     height: 100vh;
     background-color: var.$secondColor;
     top: 80px;
-    left: -100%;
     text-align: center;
-    transition: all 0.5s;
   }
 
   .navbar__ul .navbar__li {
@@ -91,12 +89,11 @@
 
   .navbar__li .navbar__a {
     font-size: 20px;
+    display: inline-block;
+    width: 100%;
   }
   .navbar__li .navbar__a:hover {
     background: none;
     color: #2d2e32;
-  }
-  #check:checked ~ ul {
-    left: 0;
   }
 }
