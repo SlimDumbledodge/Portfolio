@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contact-content">
           <h3 id="contact-title">Contact</h3>
           <p id="contact-hook-sentence">
-            Une opportunité d'alternance ? Contacter moi !{' '}
+            Une opportunité d'alternance ? Contactez-moi !{' '}
             <i className="fa-solid fa-hand-point-down" />
           </p>
           <div className="contact-wrapper">

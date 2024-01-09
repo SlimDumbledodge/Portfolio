@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="project-card first-project">
               <div>
                 <img
-                  src="https://i.ibb.co/xM0KGvv/pokedex.png"
+                  src="https://i.ibb.co/zJxK4H9/Capture-d-cran-2024-01-09-204540.png"
                   className="project-img"
                   alt="pokédex"
                 />
@@ -26,11 +26,11 @@ const Projects = () => {
                   pokédex <span>(décembre 2023)</span>
                 </h2>
                 <p id="project-description">
-                  Ce pokédex a été réalisé en parallèle de mes études.
-                  L'utilisateur à la possibilité de rechercher un pokémon et
-                  afficher les détails de celui-ci, consulter son évolution
-                  direct etc... Si vous voulez le voir en détail je vous laisse
-                  cliquer juste en dessous :)
+                  Un projet sur l'univers des Pokémons, il permet de consulter
+                  un grand éventail d'informations sur chacun d'entre eux. Cette
+                  application permet entre autres de rechercher un Pokémon,
+                  consulter ses informations, consulter son évolution, etc... Je
+                  vous invite à le visiter si vous voulez en savoir plus ! :)
                 </p>
                 <div className="stacks">
                   <p>react</p>

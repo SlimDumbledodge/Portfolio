@@ -19,8 +19,8 @@ const About = () => {
             <p>
               Développeur Web FullStack polyvalent et passionné depuis
               l'adolescence, je suis en mesure de créer des applications Web
-              dynamique et adaptés. Je maîtrise et utilise un large éventail de
-              langages de programmation, de frameworks et de librairie tierces
+              dynamiques et adaptés. Je maîtrise et utilise un large éventail de
+              langages de programmation, de frameworks et de librairies tierces
               qui garantissent une expérience utilisateur optimale. Je me tiens
               également au courant des technologies émergentes afin de mettre en
               œuvre des solutions innovantes et d'améliorer l'efficacité des

@@ -9,22 +9,18 @@
 .container {
   margin: auto;
   width: 70%;
-  // border: 1px solid black;
   padding: 0 4rem;
 
   .content {
-    align-items: center;
     display: flex;
-    position: relative;
+    align-items: center;
     justify-content: space-between;
-    // border: 1px solid red;
   }
 
   .hero-text {
     display: flex;
     flex-direction: column;
     max-width: 50rem;
-    position: relative;
   }
 
   .hero-text h1 {
@@ -83,7 +79,7 @@
   .content {
     flex-direction: column-reverse;
     gap: 3rem;
-    height: auto;
+    // height: auto;
     text-align: center;
   }
   .container .hero-text p {
