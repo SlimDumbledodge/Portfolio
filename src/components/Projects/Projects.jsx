@@ -36,6 +36,7 @@ const Projects = () => {
                   <p>react</p>
                   <p>redux</p>
                   <p>scss</p>
+                  <p>semantic ui react</p>
                 </div>
                 <div className="links">
                   <a
