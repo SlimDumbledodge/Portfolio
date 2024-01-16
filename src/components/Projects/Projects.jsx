@@ -46,7 +46,7 @@ const Projects = () => {
                     Code <i className="fa-brands fa-github" />
                   </a>
                   <a
-                    href="https://amaelpokedex.netlify.app/"
+                    href="https://amael-pokedex.netlify.app/"
                     rel="noreferrer"
                     target="_blank"
                   >
