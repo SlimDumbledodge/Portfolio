@@ -41,13 +41,11 @@ const Home = () => {
               </a>
             </span>
           </div>
-          <div className="hero-img">
-            <img
-              src="https://i.ibb.co/SP3sQsK/hero.jpg"
-              className="hero-img"
-              alt="hero"
-            />
-          </div>
+          <img
+            src="https://i.ibb.co/SP3sQsK/hero.jpg"
+            className="hero-img"
+            alt="hero"
+          />
         </div>
       </div>
     </section>

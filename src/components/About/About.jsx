@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { Image } from '@chakra-ui/react';
 import './About.scss';
 
 const About = () => {
@@ -6,13 +7,11 @@ const About = () => {
     <section className="about" id="about">
       <div className="container">
         <div className="about-content">
-          <div className="about-img">
-            <img
-              src="https://i.ibb.co/2KN4TFz/working.png"
-              className="about-img"
-              alt=""
-            />
-          </div>
+          <img
+            src="https://i.ibb.co/2KN4TFz/working.png"
+            alt="about"
+            id="about-img"
+          />
           <div className="about-text">
             <h3>A propos de moi</h3>
 

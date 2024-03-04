@@ -89,6 +89,22 @@ const Skills = () => {
               />
             </div>
             <div className="skill-box">
+              <p>Sémantic UI</p>
+              <img
+                src="https://react.semantic-ui.com/logo.png"
+                alt=""
+                className="skill-img"
+              />
+            </div>
+            <div className="skill-box">
+              <p>Chakra UI</p>
+              <img
+                src="https://itelofilho.gallerycdn.vsassets.io/extensions/itelofilho/chakra-ui-cheatsheet/0.1.2/1602346378840/Microsoft.VisualStudio.Services.Icons.Default"
+                alt=""
+                className="skill-img"
+              />
+            </div>
+            <div className="skill-box">
               <p>Bulma</p>
               <img
                 src="https://static-00.iconduck.com/assets.00/bulma-icon-352x512-b0faxtog.png"
