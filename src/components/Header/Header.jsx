@@ -58,7 +58,7 @@ function Header() {
         <li className="navbar__li">
           <a
             className="navbar__a"
-            href="https://www.dropbox.com/scl/fi/4voysqkgyte79qnw0as1s/CV.pdf?rlkey=w7wri6iywpcynf6yf687fn9uh&dl=0"
+            href="https://drive.google.com/file/d/1R5N0tr_nKKNcRTdkTLkhAw7viCBMdmhv/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
             onClick={handleClick}
