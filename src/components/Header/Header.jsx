@@ -32,22 +32,22 @@ function Header() {
       >
         <li className="navbar__li">
           <a className="navbar__a" href="#home" onClick={handleClick}>
-            Accueil
+            Home
           </a>
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#about" onClick={handleClick}>
-            A propos
+            About
           </a>
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#projects" onClick={handleClick}>
-            Projets
+            Projects
           </a>
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#skills" onClick={handleClick}>
-            Compétences
+            Skills
           </a>
         </li>
         <li className="navbar__li">
@@ -63,7 +63,7 @@ function Header() {
             target="_blank"
             onClick={handleClick}
           >
-            CV
+            Resume
           </a>
         </li>
       </ul>

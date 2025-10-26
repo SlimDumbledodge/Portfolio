@@ -1,13 +1,10 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript][typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.suggest.showKeywords": false
-  },
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "editor.detectIndentation": true,
-  "editor.rulers": [80],
   "editor.tabSize": 2,
+  "editor.rulers": [80],
   "files.exclude": {
     "USE_GITIGNORE": true
   },
@@ -19,6 +16,9 @@
     "html",
     "markdown"
   ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "javascript.validate.enable": false,
   "search.exclude": {
     "**/node_modules": true,
@@ -32,7 +32,17 @@
     "ejs": "html"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "cSpell.words": [
-    "airbnb"
-  ],
+  "cSpell.words": ["airbnb"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

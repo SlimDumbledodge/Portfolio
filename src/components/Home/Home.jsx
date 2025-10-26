@@ -9,7 +9,7 @@ const Home = () => {
         <div className="content">
           <div className="hero-text">
             <h1>
-              Développeur Fullstack React/Laravel
+              Fullstack Engineer
               <span>
                 <img
                   src="https://i.ibb.co/DKVdrf2/hello-img.png"
@@ -20,10 +20,14 @@ const Home = () => {
               </span>
             </h1>
             <p>
-              Salut ! Je m'appelle Amaël Rosales et je suis un développeur
-              fullstack passioné depuis l'adolescence basé à Montpellier.{' '}
-              <i className="fa-solid fa-map-pin location-icon" />
+              Hello! My name is Amaël Rosales, a passionate fullstack engineer
+              specialized in ReactJS, TypeScript, and NestJS. I'm based in
+              Montpellier and currently looking for new opportunities as a{' '}
+              cross-border (frontalier) engineer in Switzerland , especially
+              around Geneva, Lausanne, or Neuchâtel
+              <span className="flag-emoji">🇨🇭</span>
             </p>
+
             <span>
               <a
                 href="http://linkedin.com/in/amael-rosales"
@@ -33,7 +37,7 @@ const Home = () => {
                 <i className="fa-brands fa-linkedin" />
               </a>
               <a
-                href="https://github.com/Rosales-Amael"
+                href="https://github.com/slimdumbledodge"
                 rel="noreferrer"
                 target="_blank"
               >
