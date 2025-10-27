@@ -50,8 +50,8 @@ const Contact = () => {
             rel="noreferrer"
             className="download-cv"
           >
-            <i className="fa-solid fa-download download" />
-            Download Resume
+            <i className="fa-solid fa-file download" />
+            Check Resume
           </a>
         </div>
       </div>
