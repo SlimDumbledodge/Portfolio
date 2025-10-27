@@ -16,6 +16,17 @@ import laPinceImg from '../../assets/la-pince.png';
 import symfonyIcon from '../../assets/symfony-icon.svg';
 
 const Projects = () => {
+  const openBothLinks = () => {
+    window.open(
+      'https://github.com/O-clock-Naga/projet-la-pince-front',
+      '_blank'
+    );
+    window.open(
+      'https://github.com/O-clock-Naga/projet-la-pince-back',
+      '_blank'
+    );
+  };
+
   return (
     <section className="projects" id="projects">
       <div className="container">
@@ -197,25 +208,19 @@ const Projects = () => {
               <CardFooter>
                 <div className="links">
                   <a
-                    href="https://github.com/O-clock-Naga/projet-la-pince-front"
+                    onClick={openBothLinks}
                     rel="noreferrer"
-                    target="_blank"
+                    style={{ cursor: 'pointer' }}
                   >
-                    Frontend <i className="fa-brands fa-github" />
+                    Repo <i className="fa-brands fa-github" />
                   </a>
-                  <a
-                    href="https://github.com/O-clock-Naga/projet-la-pince-back"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Backend <i className="fa-brands fa-github" />
-                  </a>
+
                   <a
                     href="https://www.la-pince.tech/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Site{' '}
+                    Website{' '}
                     <i className="fa-solid fa-arrow-up-right-from-square" />
                   </a>
                 </div>
@@ -300,14 +305,14 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Code <i className="fa-brands fa-github" />
+                    Repo <i className="fa-brands fa-github" />
                   </a>
                   <a
                     href="http://lebongeek.surge.sh/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Site{' '}
+                    Website{' '}
                     <i className="fa-solid fa-arrow-up-right-from-square" />
                   </a>
                 </div>
@@ -384,14 +389,14 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Code <i className="fa-brands fa-github" />
+                    Repo <i className="fa-brands fa-github" />
                   </a>
                   <a
                     href="https://amael-pokedex.netlify.app/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Site{' '}
+                    Website{' '}
                     <i className="fa-solid fa-arrow-up-right-from-square" />
                   </a>
                 </div>
