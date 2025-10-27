@@ -20,7 +20,13 @@ function Header() {
   return (
     <nav className="navbar">
       <a href="/">
-        <strong className="logo">Amael.dev</strong>
+        <span className="logo-wrapper">
+          <strong className="logo">Amael.dev</strong>
+          <span className="status-badge" aria-label="Open to work">
+            <span className="status-dot" aria-hidden="true" />
+            <span className="status-text">Open to work</span>
+          </span>
+        </span>
       </a>
       <input type="checkbox" id="check" onChange={handleClick} />
       <label htmlFor="check" className="navbar__burguer__menu">
