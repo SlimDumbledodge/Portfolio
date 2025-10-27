@@ -1,5 +1,5 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.detectIndentation": true,
@@ -17,7 +17,7 @@
     "markdown"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "javascript.validate.enable": false,
   "search.exclude": {

@@ -9,7 +9,7 @@ const Home = () => {
         <div className="content">
           <div className="hero-text">
             <h1>
-              Fullstack Engineer
+              Fullstack Engineer here !
               <span>
                 <img
                   src="https://i.ibb.co/DKVdrf2/hello-img.png"

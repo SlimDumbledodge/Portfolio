@@ -21,6 +21,207 @@ const Projects = () => {
             Each project is unique!
             <i className="fa-solid fa-puzzle-piece puzzle-icon" />
           </p>
+          <Card
+            id="project_card"
+            direction={{ base: 'column', xl: 'row' }}
+            overflow="hidden"
+            variant="outline"
+          >
+            <Image
+              objectFit="cover"
+              maxW={{ base: '100%', xl: '400px' }}
+              src="/src/assets/tradelab.png"
+              alt="Caffe Latte"
+              bg="white"
+            />
+
+            <Stack>
+              <CardBody ml={4}>
+                <h2 className="project_title">tradelab</h2>
+
+                <Text className="project_description">
+                  La Pince is a personal finance application designed to help
+                  users easily track their expenses, manage their budgets, and
+                  achieve their financial goals. The app focuses on simplicity,
+                  customization, and accessibility, offering an intuitive
+                  interface suitable for all users, regardless of their
+                  financial knowledge. It aims to make budget management more
+                  straightforward and engaging through practical, user-centered
+                  features developed with an agile approach.
+                </Text>
+
+                <div className="stacks">
+                  <div className="skill-box">
+                    <p>NextJS</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>TypeScript</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>Tailwind</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>NestJS</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>Prisma</p>
+                    <img
+                      src="/src/assets/light-prisma-svgrepo-com.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>PostgreSQL</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                </div>
+              </CardBody>
+
+              <CardFooter>
+                <div className="links">
+                  <Badge borderRadius="full" p={4} colorScheme="telegram">
+                    In development...
+                  </Badge>
+                </div>
+              </CardFooter>
+            </Stack>
+          </Card>
+
+          <Card
+            id="project_card"
+            direction={{ base: 'column', xl: 'row' }}
+            overflow="hidden"
+            variant="outline"
+          >
+            <Image
+              objectFit="contain"
+              maxW={{ base: '100%', xl: '400px' }}
+              src="/src/assets/la-pince.png"
+              alt="Caffe Latte"
+            />
+
+            <Stack>
+              <CardBody ml={4}>
+                <h2 className="project_title">
+                  la pince <span className="project_date">(July 2025)</span>
+                </h2>
+
+                <Text className="project_description">
+                  La Pince is a personal finance application designed to help
+                  users easily track their expenses, manage their budgets, and
+                  achieve their financial goals. The app focuses on simplicity,
+                  customization, and accessibility, offering an intuitive
+                  interface suitable for all users, regardless of their
+                  financial knowledge. It aims to make budget management more
+                  straightforward and engaging through practical, user-centered
+                  features developed with an agile approach.
+                </Text>
+
+                <div className="stacks">
+                  <div className="skill-box">
+                    <p>NextJS</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>TypeScript</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>Tailwind</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>NestJS</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>PostgreSQL</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>Docker</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                </div>
+              </CardBody>
+
+              <CardFooter>
+                <div className="links">
+                  <a
+                    href="https://github.com/O-clock-Naga/projet-la-pince-front"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Frontend <i className="fa-brands fa-github" />
+                  </a>
+                  <a
+                    href="https://github.com/O-clock-Naga/projet-la-pince-back"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Backend <i className="fa-brands fa-github" />
+                  </a>
+                  <a
+                    href="https://www.la-pince.tech/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Site{' '}
+                    <i className="fa-solid fa-arrow-up-right-from-square" />
+                  </a>
+                </div>
+              </CardFooter>
+            </Stack>
+          </Card>
 
           <Card
             id="project_card"
@@ -43,8 +244,8 @@ const Projects = () => {
                 </h2>
 
                 <Text className="project_description">
-                  LeBonGeek is my end-of-study project. It was developed in 3
-                  weeks. The purpose of this application is the sale of
+                  LeBonGeek is my end-of-study project. It was developed in 1
+                  month. The purpose of this application is the sale of
                   classifieds between individuals in the geek universe (comics,
                   figurines, etc...). Most of the work has been done, but there
                   are still some details to fix. The backend was coded in
@@ -78,9 +279,17 @@ const Projects = () => {
                     />
                   </div>
                   <div className="skill-box">
-                    <p>Material UI</p>
+                    <p>Symfony</p>
                     <img
-                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg"
+                      src="/src/assets/symfony-icon.svg"
+                      alt=""
+                      className="skill-img"
+                    />
+                  </div>
+                  <div className="skill-box">
+                    <p>PostgreSQL</p>
+                    <img
+                      src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
                       alt=""
                       className="skill-img"
                     />
@@ -195,11 +404,6 @@ const Projects = () => {
           </Card>
 
           {/* Badge réutilisable pour futurs projets */}
-          <div className="project-badge-container">
-            <Badge borderRadius="full" p={4} colorScheme="telegram">
-              In development...
-            </Badge>
-          </div>
         </div>
       </div>
     </section>

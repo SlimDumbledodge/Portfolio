@@ -1,5 +1,11 @@
 @use '../../styles/variables' as var;
 
+#card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
 .skills {
   background-color: var.$mainColor;
   padding: 100px 0;
@@ -11,6 +17,33 @@
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
+  }
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 4rem 1fr;
+  grid-template-rows: auto auto;
+  gap: 2rem 2rem;
+  align-items: start;
+  margin-top: 2.5rem;
+  align-items: stretch; // important !
+
+  .skills-column {
+    display: flex;
+    grid-auto-rows: 1fr; // toutes les cartes auront la même hauteur
+    flex-direction: column;
+    gap: 2rem;
+  }
+    #card {
+    flex: 1; // toutes les cartes prennent la même hauteur
+  }
+
+  .skills-spacer {
+    /* empty column used as gap/visual separation */
+    min-width: 4rem;
+    height: 1px; /* prevent empty-rule lint */
+    opacity: 0;
   }
 }
 
@@ -31,6 +64,18 @@
     font-weight: 600;
     margin-bottom: 5px;
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .skills-column {
+      gap: 1.5rem;
+    }
   }
 }
 

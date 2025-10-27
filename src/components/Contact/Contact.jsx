@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contact-content">
           <h3 id="contact-title">Contact</h3>
           <p id="contact-hook-sentence">
-            Looking for a talented cross-border developer? Let's get in touch!{' '}
+            Looking for a talented developer? Let's get in touch!{' '}
             <i className="fa-solid fa-hand-point-down" />
           </p>
           <div className="contact-wrapper">
@@ -23,6 +23,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
+
             <div className="contact-container">
               <span>
                 <i className="fa-regular fa-envelope" />
@@ -32,13 +33,14 @@ const Contact = () => {
                 <p>amael.rosales@gmail.com</p>
               </div>
             </div>
+
             <div className="contact-container">
               <span>
                 <i className="fa-solid fa-phone" />
               </span>
               <div className="contact-box">
                 <h3>Phone</h3>
-                <p>+33 6 XX XX XX XX</p>
+                <p>+33 7 68 33 31 57</p>
               </div>
             </div>
           </div>
