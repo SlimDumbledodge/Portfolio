@@ -10,6 +10,10 @@ import {
   Text,
 } from '@chakra-ui/react';
 import './Projects.scss';
+import tradelabImg from '../../assets/tradelab.png';
+import prismaSvg from '../../assets/light-prisma-svgrepo-com.svg';
+import laPinceImg from '../../assets/la-pince.png';
+import symfonyIcon from '../../assets/symfony-icon.svg';
 
 const Projects = () => {
   return (
@@ -30,8 +34,8 @@ const Projects = () => {
             <Image
               objectFit="cover"
               maxW={{ base: '100%', xl: '400px' }}
-              src="/src/assets/tradelab.png"
-              alt="Caffe Latte"
+              src={tradelabImg}
+              alt="tradelab"
               bg="white"
             />
 
@@ -85,11 +89,7 @@ const Projects = () => {
                   </div>
                   <div className="skill-box">
                     <p>Prisma</p>
-                    <img
-                      src="/src/assets/light-prisma-svgrepo-com.svg"
-                      alt=""
-                      className="skill-img"
-                    />
+                    <img src={prismaSvg} alt="" className="skill-img" />
                   </div>
                   <div className="skill-box">
                     <p>PostgreSQL</p>
@@ -121,7 +121,7 @@ const Projects = () => {
             <Image
               objectFit="contain"
               maxW={{ base: '100%', xl: '400px' }}
-              src="/src/assets/la-pince.png"
+              src={laPinceImg}
               alt="Caffe Latte"
             />
 
@@ -280,11 +280,7 @@ const Projects = () => {
                   </div>
                   <div className="skill-box">
                     <p>Symfony</p>
-                    <img
-                      src="/src/assets/symfony-icon.svg"
-                      alt=""
-                      className="skill-img"
-                    />
+                    <img src={symfonyIcon} alt="" className="skill-img" />
                   </div>
                   <div className="skill-box">
                     <p>PostgreSQL</p>

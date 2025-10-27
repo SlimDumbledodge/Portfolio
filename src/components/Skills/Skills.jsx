@@ -9,6 +9,12 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react';
+import mongoSvg from '../../assets/mongodb.svg';
+import restApiSvg from '../../assets/rest-api.svg';
+import prismaSvg from '../../assets/light-prisma-svgrepo-com.svg';
+import redisSvg from '../../assets/redis.svg';
+import jestSvg from '../../assets/jest.svg';
+import cypressSvg from '../../assets/cypress.svg';
 
 const Skills = () => {
   return (
@@ -84,11 +90,11 @@ const Skills = () => {
                       },
                       {
                         name: 'MongoDB',
-                        img: '/src/assets/mongodb.svg',
+                        img: mongoSvg,
                       },
                       {
                         name: 'API Rest',
-                        img: '/src/assets/rest-api.svg',
+                        img: restApiSvg,
                       },
                       {
                         name: 'PostgreSQL',
@@ -133,7 +139,7 @@ const Skills = () => {
                       },
                       {
                         name: 'Prisma',
-                        img: '/src/assets/light-prisma-svgrepo-com.svg',
+                        img: prismaSvg,
                       },
                       {
                         name: 'graphQL',
@@ -141,7 +147,7 @@ const Skills = () => {
                       },
                       {
                         name: 'Redis',
-                        img: '/src/assets/redis.svg',
+                        img: redisSvg,
                       },
                     ].map((skill) => (
                       <div className="skill-box" key={skill.name}>
@@ -177,11 +183,11 @@ const Skills = () => {
                       { name: 'Vitest', img: 'https://vitest.dev/logo.svg' },
                       {
                         name: 'Jest',
-                        img: '/src/assets/jest.svg',
+                        img: jestSvg,
                       },
                       {
                         name: 'Cypress',
-                        img: '/src/assets/cypress.svg',
+                        img: cypressSvg,
                       },
                       {
                         name: 'WordPress',
