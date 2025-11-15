@@ -20,12 +20,13 @@ const Home = () => {
               </span>
             </h1>
             <p>
-              Hello! My name is Amaël Rosales, a passionate fullstack engineer
-              specialized in ReactJS, TypeScript, and NestJS. I'm based in
-              Montpellier and currently looking for new opportunities as a{' '}
-              cross-border (frontalier) engineer in Switzerland , especially
-              around Geneva, Lausanne, or Neuchâtel
-              <span className="flag-emoji">🇨🇭</span>
+              Bonjour ! Je suis Amaël Rosales, ingénieur Fullstack passionné,
+              spécialisé en ReactJS, TypeScript et NestJS. Basé à Montpellier,
+              je suis à la recherche de nouvelles opportunités en tant que
+              frontalier en Suisse, particulièrement autour de Genève, Lausanne
+              ou Neuchâtel 🇨🇭. Je combine expertise technique, développement
+              fullstack et goût pour les solutions performantes et évolutives,
+              prêt à contribuer à des projets à fort impact !
             </p>
 
             <span>

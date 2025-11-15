@@ -31,9 +31,9 @@ const Projects = () => {
     <section className="projects" id="projects">
       <div className="container">
         <div className="projects-content">
-          <h3 className="project_section_title">Projects</h3>
+          <h3 className="project_section_title">Projets</h3>
           <p id="hook-sentence">
-            Each project is unique!
+            Chaque projet est unique !
             <i className="fa-solid fa-puzzle-piece puzzle-icon" />
           </p>
           <Card
@@ -55,14 +55,12 @@ const Projects = () => {
                 <h2 className="project_title">tradelab</h2>
 
                 <Text className="project_description">
-                  La Pince is a personal finance application designed to help
-                  users easily track their expenses, manage their budgets, and
-                  achieve their financial goals. The app focuses on simplicity,
-                  customization, and accessibility, offering an intuitive
-                  interface suitable for all users, regardless of their
-                  financial knowledge. It aims to make budget management more
-                  straightforward and engaging through practical, user-centered
-                  features developed with an agile approach.
+                  TradeLab est une application de trading virtuelle conçue pour
+                  permettre aux utilisateurs de s’initier au monde de la bourse
+                  sans prendre de risques financiers. Elle offre la possibilité
+                  d’investir avec de la monnaie fictive, tout en utilisant les
+                  valeurs réelles du marché, afin de simuler des conditions
+                  authentiques d’investissement.
                 </Text>
 
                 <div className="stacks">
@@ -116,7 +114,7 @@ const Projects = () => {
               <CardFooter>
                 <div className="links">
                   <Badge borderRadius="full" p={4} colorScheme="telegram">
-                    In development...
+                    En développement...
                   </Badge>
                 </div>
               </CardFooter>
@@ -139,18 +137,20 @@ const Projects = () => {
             <Stack>
               <CardBody ml={4}>
                 <h2 className="project_title">
-                  la pince <span className="project_date">(July 2025)</span>
+                  la pince <span className="project_date">(Juillet 2024)</span>
                 </h2>
 
                 <Text className="project_description">
-                  La Pince is a personal finance application designed to help
-                  users easily track their expenses, manage their budgets, and
-                  achieve their financial goals. The app focuses on simplicity,
-                  customization, and accessibility, offering an intuitive
-                  interface suitable for all users, regardless of their
-                  financial knowledge. It aims to make budget management more
-                  straightforward and engaging through practical, user-centered
-                  features developed with an agile approach.
+                  La Pince est une application de finance personnelle conçue
+                  pour aider les utilisateurs à suivre facilement leurs
+                  dépenses, gérer leurs budgets et atteindre leurs objectifs
+                  financiers. L'application met l'accent sur la simplicité, la
+                  personnalisation et l'accessibilité, offrant une interface
+                  intuitive adaptée à tous les utilisateurs, indépendamment de
+                  leurs connaissances financières. Elle vise à rendre la gestion
+                  budgétaire plus simple et engageante grâce à des
+                  fonctionnalités pratiques et centrées sur l'utilisateur,
+                  développées avec une approche agile.
                 </Text>
 
                 <div className="stacks">
@@ -212,7 +212,7 @@ const Projects = () => {
                     rel="noreferrer"
                     style={{ cursor: 'pointer' }}
                   >
-                    Repo <i className="fa-brands fa-github" />
+                    Dépôt <i className="fa-brands fa-github" />
                   </a>
 
                   <a
@@ -220,7 +220,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Website{' '}
+                    Site Web{' '}
                     <i className="fa-solid fa-arrow-up-right-from-square" />
                   </a>
                 </div>
@@ -245,17 +245,17 @@ const Projects = () => {
               <CardBody ml={4}>
                 <h2 className="project_title">
                   lebongeek{' '}
-                  <span className="project_date">(December 2023)</span>
+                  <span className="project_date">(Décembre 2023)</span>
                 </h2>
 
                 <Text className="project_description">
-                  LeBonGeek is my end-of-study project. It was developed in 1
-                  month. The purpose of this application is the sale of
-                  classifieds between individuals in the geek universe (comics,
-                  figurines, etc...). Most of the work has been done, but there
-                  are still some details to fix. The backend was coded in
-                  Symfony by 2 developers, and the frontend was made by 3 of us
-                  ! :)
+                  LeBonGeek est mon projet de fin d'études. Il a été développé
+                  en 1 mois. Le but de cette application est la vente de petites
+                  annonces entre particuliers dans l'univers geek (BD,
+                  figurines, etc...). La majeure partie du travail est terminée,
+                  mais il reste encore quelques détails à corriger. Le backend a
+                  été codé en Symfony par 2 développeurs, et le frontend a été
+                  réalisé par 3 d'entre nous ! :)
                 </Text>
 
                 <div className="stacks">
@@ -305,14 +305,14 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Repo <i className="fa-brands fa-github" />
+                    Dépôt <i className="fa-brands fa-github" />
                   </a>
                   <a
                     href="http://lebongeek.surge.sh/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Website{' '}
+                    Site Web{' '}
                     <i className="fa-solid fa-arrow-up-right-from-square" />
                   </a>
                 </div>
@@ -335,15 +335,15 @@ const Projects = () => {
             <Stack>
               <CardBody ml={4}>
                 <h2 className="project_title">
-                  pokédex <span className="project_date">(December 2023)</span>
+                  pokédex <span className="project_date">(Décembre 2023)</span>
                 </h2>
 
                 <Text className="project_description">
-                  A project about the world of Pokémon. It allows you to consult
-                  a wide range of information about each one of them. This
-                  application allows, among other things, to search for a
-                  Pokémon, view its information, check its evolution, etc... I
-                  invite you to visit it if you want to know more! :)
+                  Un projet sur l'univers des Pokémon. Il permet de consulter un
+                  large éventail d'informations sur chacun d'entre eux. Cette
+                  application permet, entre autres, de rechercher un Pokémon,
+                  consulter ses informations, vérifier son évolution, etc... Je
+                  vous invite à la visiter si vous voulez en savoir plus ! :)
                 </Text>
 
                 <div className="stacks">
@@ -389,14 +389,14 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Repo <i className="fa-brands fa-github" />
+                    Dépôt <i className="fa-brands fa-github" />
                   </a>
                   <a
                     href="https://amael-pokedex.netlify.app/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Website{' '}
+                    Site Web{' '}
                     <i className="fa-solid fa-arrow-up-right-from-square" />
                   </a>
                 </div>

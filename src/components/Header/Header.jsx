@@ -22,7 +22,7 @@ function Header() {
       <a href="/">
         <span className="logo-wrapper">
           <strong className="logo">Amael.dev</strong>
-          <span className="status-badge" aria-label="Open to work">
+          <span className="status-badge" aria-label="Ouvert au travail">
             <span className="status-dot" aria-hidden="true" />
             <span className="status-text">Open to work</span>
           </span>
@@ -38,22 +38,22 @@ function Header() {
       >
         <li className="navbar__li">
           <a className="navbar__a" href="#home" onClick={handleClick}>
-            Home
+            Accueil
           </a>
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#about" onClick={handleClick}>
-            About
+            A propos
           </a>
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#projects" onClick={handleClick}>
-            Projects
+            Projets
           </a>
         </li>
         <li className="navbar__li">
           <a className="navbar__a" href="#skills" onClick={handleClick}>
-            Skills
+            Compétences
           </a>
         </li>
         <li className="navbar__li">
@@ -64,12 +64,12 @@ function Header() {
         <li className="navbar__li">
           <a
             className="navbar__a"
-            href="https://drive.google.com/file/d/1R5N0tr_nKKNcRTdkTLkhAw7viCBMdmhv/view?usp=sharing"
+            href="https://drive.google.com/file/d/13Uew8Mt3SzIV1UgjrHikSqLb8gE4xSqR/view"
             rel="noreferrer"
             target="_blank"
             onClick={handleClick}
           >
-            Resume
+            CV
           </a>
         </li>
       </ul>

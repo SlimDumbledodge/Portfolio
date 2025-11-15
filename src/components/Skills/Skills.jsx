@@ -21,7 +21,7 @@ const Skills = () => {
     <section className="skills" id="skills">
       <div className="container">
         <div className="skills-content">
-          <h3>Skills</h3>
+          <h3>Compétences</h3>
 
           <div className="skills-grid">
             <div className="skills-column left">
@@ -80,7 +80,7 @@ const Skills = () => {
               <Card id="card" direction={{ base: 'column' }} variant="outline">
                 <CardBody>
                   <h4 style={{ textAlign: 'center', fontStyle: 'italic' }}>
-                    Database
+                    Base de données
                   </h4>
                   <div className="skills-wrapper">
                     {[
@@ -168,7 +168,7 @@ const Skills = () => {
               <Card id="card" direction={{ base: 'column' }} variant="outline">
                 <CardBody>
                   <h4 style={{ textAlign: 'center', fontStyle: 'italic' }}>
-                    Tools & DevOps
+                    Outils & DevOps
                   </h4>
                   <div className="skills-wrapper">
                     {[
