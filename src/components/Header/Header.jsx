@@ -64,7 +64,7 @@ function Header() {
         <li className="navbar__li">
           <a
             className="navbar__a"
-            href="https://drive.google.com/file/d/13Uew8Mt3SzIV1UgjrHikSqLb8gE4xSqR/view"
+            href="/public/cv_amael_rosales.pdf"
             rel="noreferrer"
             target="_blank"
             onClick={handleClick}
