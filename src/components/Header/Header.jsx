@@ -64,7 +64,7 @@ function Header() {
         <li className="navbar__li">
           <a
             className="navbar__a"
-            href="/public/cv_amael_rosales.pdf"
+            href="/cv_amael_rosales.pdf"
             rel="noreferrer"
             target="_blank"
             onClick={handleClick}
