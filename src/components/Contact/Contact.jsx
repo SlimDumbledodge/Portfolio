@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/13Uew8Mt3SzIV1UgjrHikSqLb8gE4xSqR/view"
+            href="/cv_amael_rosales.pdf"
             target="_blank"
             rel="noreferrer"
             className="download-cv"

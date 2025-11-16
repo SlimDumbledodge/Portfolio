@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/no-unescaped-entities */
 import './Home.scss';
+import me from '../../assets/me.png'
+import { Image } from '@chakra-ui/react';
 
 const Home = () => {
   return (
@@ -46,10 +48,13 @@ const Home = () => {
               </a>
             </span>
           </div>
-          <img
-            src="https://i.ibb.co/SP3sQsK/hero.jpg"
-            className="hero-img"
-            alt="hero"
+          <Image
+            src={me}
+            alt="about"
+            objectFit="contain"
+            id="hero-img"
+            maxW={{ base: '100%', xl: '400px' }}
+            rounded="full"
           />
         </div>
       </div>
