@@ -52,7 +52,10 @@ const Projects = () => {
 
             <Stack>
               <CardBody ml={4}>
-                <h2 className="project_title">tradelab</h2>
+                <h2 className="project_title">
+                  tradelab studio{' '}
+                  <span className="project_date">(Décembre 2025)</span>
+                </h2>
 
                 <Text className="project_description">
                   TradeLab est une application de trading virtuelle conçue pour
@@ -113,9 +116,21 @@ const Projects = () => {
 
               <CardFooter>
                 <div className="links">
-                  <Badge borderRadius="full" p={4} colorScheme="telegram">
-                    En développement...
-                  </Badge>
+                  <a
+                    href="https://github.com/SlimDumbledodge/trade-lab"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Repos <i className="fa-brands fa-github" />
+                  </a>
+                  <a
+                    href="https://www.tradelab-studio.fr/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Site Web{' '}
+                    <i className="fa-solid fa-arrow-up-right-from-square" />
+                  </a>
                 </div>
               </CardFooter>
             </Stack>
@@ -212,7 +227,7 @@ const Projects = () => {
                     rel="noreferrer"
                     style={{ cursor: 'pointer' }}
                   >
-                    Dépôt <i className="fa-brands fa-github" />
+                    Repos <i className="fa-brands fa-github" />
                   </a>
 
                   <a
@@ -305,7 +320,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Dépôt <i className="fa-brands fa-github" />
+                    Repos <i className="fa-brands fa-github" />
                   </a>
                   <a
                     href="http://lebongeek.surge.sh/"
@@ -389,7 +404,7 @@ const Projects = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Dépôt <i className="fa-brands fa-github" />
+                    Repos <i className="fa-brands fa-github" />
                   </a>
                   <a
                     href="https://amael-pokedex.netlify.app/"

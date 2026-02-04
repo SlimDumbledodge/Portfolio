@@ -3,7 +3,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <section className="footer">
-      <p>Copyright &copy; 2025. Tous droits réservés.</p>
+      <p>Copyright &copy; 2026. Tous droits réservés.</p>
       <div className="socials">
         <a
           href="http://linkedin.com/in/amael-rosales"
